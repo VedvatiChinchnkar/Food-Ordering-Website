@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<!-- saved from url=(0046)file:///C:/Users/Admin/Desktop/Food/index.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Food for Children </title>
+</head>
+<body>
+    <nav class="navbar background">
+        <ul class="nav-list">
+            <div class="logo"><img src="images.jpg" alt="logo"></div>
+            <li><a href="home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact">Contact us</a></li>
+        </ul> 
+        <div class="rightnav">
+            <input type="text" name="Search" id="Search">
+            <button class="btn btn-sm">Search</button>    
+        </div>
+        <button class="login-btn" onclick="openLogin()">Login</button>
+        <script>
+            function openLogin() {
+            window.location.href = "login.html";
+        }
+        </script>
+    </nav>
+    <section class="background firstSection">
+        <div class="box-main">
+            <div class="firstHalf">
+                <p class="text-big">The Food you like </p>
+                <p class="text-small"> Lunch meal, Shortbreak meal and healthy meal for our growing Children </p>
+                <div class="button">
+                    <button class="btn">Reviews</button>
+                </div>
+            </div>
+            <div class="secondHalf">
+                <img src="imga.jpg" alt="baby Image">
+            </div>
+        </div>
+    </section>
+    <section class="services-container">
+        <h1 class="h-primary center">Our Services</h1>
+        <a>
+        <div id="services">
+            <div class="Content-box">
+                <img src="Food_Catering.jpg" alt="Food Catering">
+                <h2 class="h-secondary center">Food Catering</h2>
+                <p class="center">Lorem ipsum dolor sit amet consectetur 
+                adipisicing elit. Molestiae reiciendis quia magnam dolores illo!</p>
+            </div>
+            <div class="Content-box">
+                <img src="img1.jpg" alt="Bulk Ordering">
+                <h2 class="h-secondary center">Bulk Ordering</h2>
+                <p class="center">Lorem ipsum dolor sit amet consectetur 
+                adipisicing elit. Id, quasi fuga laboriosam ullam molestias 
+                suscipit cumque dolorem sit deserunt hic veritatis quaerat 
+                optio cupiditate perspiciatis fugit dignissimos excepturi 
+                mollitia ducimus explicabo possimus nulla quis.</p>
+            </div>
+            <div class="Content-box">
+                <img src="image.jpg" alt="Food Ordering">
+                <h2 class="h-secondary center">Dilevary</h2>
+                <p class="center">Lorem ipsum dolor sit amet consectetur 
+                adipisicing elit. Molestiae reiciendis quia magnam dolores illo!</p>
+            </div>
+        </div>
+        </a>
+    </section>
+        </div>
+    </section>
+    <section>
+        <h1>Food Menu</h1>
+        <div class="menu">
+            <div class="day">
+                <h2>Monday</h2>
+                <label><input type="checkbox" class="item" data-name="Idli & Chutney" data-price="20">
+                    Idli & Chutney ₹20</label><br>
+                <label><input type="checkbox" class="item" data-name="Rice & Dal" data-price="30">
+                    Rice & Dal ₹30</label><br>
+                <label><input type="checkbox" class="item" data-name="Banana" data-price="10">
+                    Banana ₹10</label><br>
+                <button onclick="addToCart(this)">Add To Cart</button>
+            </div>
+        <div class="day">
+            <h2>Tuesday</h2>
+            <label><input type="checkbox" class="item" data-name="Bread & Jam" data-price="20">
+                Bread & Jam ₹20</label><br>
+            <label><input type="checkbox" class="item" data-name="Veg Rice" data-price="30">
+                Veg Rice ₹30</label><br>
+                <label><input type="checkbox" class="item" data-name="Curd" data-price="10">
+                Curd ₹10</label><br>
+            <button onclick="addToCart(this)">Add To Cart</button>
+
+        </div>
+        <div class="day">
+            <h2>Wednesday</h2>
+            <label><input type="checkbox" class="item" data-name=" Upma" data-price="20">
+                Upma ₹20</label><br>
+            <label><input type="checkbox" class="item" data-name="Rice & Sambar" data-price="50">
+                Rice & Sambar₹50</label><br>
+            <label><input type="checkbox" class="item" data-name="Sweet" data-price="30">
+                Sweet</label><br>
+            <button onclick="addToCart(this)">Add To Cart</button>
+        </div>
+        <div class="day">
+            <h2>Thursday</h2>
+            <label><input type="checkbox" class="item" data-name=" Poha" data-price="20">
+                Poha ₹20</label><br>
+            <label><input type="checkbox" class="item" data-name=" Chapati & Sabji" data-price="50">
+              Chapati & Sabji ₹20</label><br>
+            <label><input type="checkbox" class="item" data-name=" Milk" data-price="20">
+              Milk ₹20</label><br>
+            <button onclick="addToCart(this)">Add To Cart</button>
+        </div>
+        <div class="day">
+            <h2>Friday</h2>
+            <label><input type="checkbox" class="item" data-name=" Dosa" data-price="20">
+             Dosa ₹20</label><br>
+            <label><input type="checkbox" class="item" data-name="Aloo Paratha" data-price="30">
+            Aloo Paratha ₹30</label><br>
+            <label><input type="checkbox" class="item" data-name="Fruit Salad" data-price="70">
+            Fruit Salad ₹50</label><br>
+            <button onclick="addToCart(this)">Add To Cart</button>
+        </div>
+        <div class="day">
+            <h2>Saturday</h2>
+            <label><input type="checkbox" class="item" data-name="Chole Curry & Puri" data-price="70">
+                Chole Curry & Puri ₹70</label><br>
+            <label><input type="checkbox" class="item" data-name=" Rice & Rajma" data-price="40">
+              Rice & Rajma ₹40</label><br>
+            <label><input type="checkbox" class="item" data-name=" Sweet" data-price="20">
+              Sweet ₹20</label><br>
+            <button onclick="addToCart(this)">Add To Cart</button>
+        </div>
+
+        <div id="cart"></div>
+        <h3>Total: ₹<span id="total">0</span></h3>
+
+    </section>
+        <div class="Order-btm">
+        <button class="btm" onclick="openOrder()">Order Now</button>
+        </div>
+        <div id="result"></div>
+        <script scr="script.js"></script>
+    <section class="services-container">
+    <a>
+    <section id="about" class="about-section">
+    <div class="about-container">
+     <div class="about-text ">
+      <h2>About</h2>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+        Distinctio consectetur aliquam ipsam, optio perspiciatis provident 
+        exercitationem accusamus eaque, unde earum repudiandae molestiae 
+        dolor dolorum velit.
+      </p>
+    </div>
+    <!-- Right Side: Image -->
+    <div class="about-image">
+      <img src="logo.png" alt="Logo">
+    </div>
+    </div>
+    </section>
+    </a>       
+</section>
+<a>
+<section id="contact" class="contact-section">
+  <h2>Contact Us</h2>
+
+  <div class="contact-box">
+    <p><strong>📍 Address:</strong> School Food Center, Pune</p>
+    <p><strong>📞 Phone:</strong> +91 98765 43210</p>
+    <p><strong>📧 Email:</strong> foodforchildren@gmail.com</p>
+  </div>
+</section>
+</a>
+
+<div id="orderSummary" style="display:none; border:1px solid #ccc; padding:15px; margin-top:15px;">
+    <h2>Order Summary</h2>
+    <div id="orderItems"></div>
+    <h3>Total Bill: ₹<span id="orderTotal">0</span></h3>
+    <button onclick="placeOrder()">Place Order</button>
+</div>
+  <!---- Order Process-->
+<script>
+let total = 0;
+let cartItems = [];
+
+function addToCart(button) {
+  const dayDiv = button.parentElement;
+  const items = dayDiv.querySelectorAll(".item:checked");
+
+  if (items.length === 0) {
+    alert("Please select at least one item");
+    return;
+  }
+
+  items.forEach(item => {
+    const name = item.dataset.name;
+    const price = Number(item.dataset.price);
+
+    cartItems.push({ name, price });
+
+    const cartItem = document.createElement("div");
+    cartItem.innerText = `${name} - ₹${price}`;
+    document.getElementById("cart").appendChild(cartItem);
+
+    total += price;
+    item.checked = false;
+  });
+
+  document.getElementById("total").innerText = total;
+}
+
+function openOrder() {
+  if (cartItems.length === 0) {
+    alert("Your cart is empty!");
+    return;
+  }
+
+  const orderItemsDiv = document.getElementById("orderItems");
+  orderItemsDiv.innerHTML = "";
+
+  cartItems.forEach(item => {
+    const div = document.createElement("div");
+    div.innerText = `${item.name} - ₹${item.price}`;
+    orderItemsDiv.appendChild(div);
+  });
+
+  document.getElementById("orderTotal").innerText = total;
+  document.getElementById("orderSummary").style.display = "block";
+
+  window.scrollTo(0, document.body.scrollHeight);
+}
+
+function placeOrder() {
+  alert("🎉 Order Placed Successfully!");
+
+  // Clear everything
+  cartItems = [];
+  total = 0;
+  document.getElementById("cart").innerHTML = "";
+  document.getElementById("total").innerText = "0";
+  document.getElementById("orderSummary").style.display = "none";
+}
+</script>
+
+
+</body>
+</html>
