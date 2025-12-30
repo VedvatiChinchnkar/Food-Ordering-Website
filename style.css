@@ -1,0 +1,241 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+.logo{
+    width:20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo img{
+    width: 53%;
+    border: 3px solid white;
+    border-radius: 50px;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    cursor: pointer;
+}
+.nav-list{
+    width: 50%;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center
+}
+.nav-list li{
+    list-style: none;
+    padding: 23px 30px;
+}
+.nav-list li a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+.nav-list li a:hover{
+    text-decoration: none;
+    color: gray;
+}
+.rightnav{
+    width:50%;
+    text-align: right;
+    padding: 0 21px;
+}
+#Search{
+    padding: 5px;
+    font-size: 17px;
+    border: 2px solid gray;
+    border-radius: 9px;
+}
+.background{
+    background:rgba(0, 0, 0, 0.7) url('../img.jpg');
+    background-size: cover;
+    background-blend-mode: darken;
+}
+.firstSection{
+    height: 100vh;
+}
+.box-main{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    color:whitesmoke;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    max-width: 50%;
+    margin: auto;
+    height: 60%;
+}
+.firstHalf{
+    width:80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.secondHalf{
+    width: 30%;
+}
+.secondHalf img{
+    width: 150%;
+    border: 5px solid white;
+    border-radius: 100px;
+    display: block;
+    margin: auto;
+    
+}
+.text-big{
+    font-size:40px;
+}
+.text-small{
+    font-size: 20px;
+}
+.btn{
+    padding: 5px 10px;
+    margin: 7px 4px;
+    border: 3px solid white;
+    border-radius: 8px;
+    background:none;
+    cursor: pointer;
+    color:blanchedalmond;
+    text-align: center;
+}
+.btn-sm{
+    padding: 6px 10px;
+    vertical-align: middle;
+}
+.login-btn{
+    padding: 5px 10px;
+    vertical-align: middle;
+    border: 3px solid white;
+    background:none;
+    cursor: pointer;
+    border-radius: 8px;
+    color: blanchedalmond;
+}
+.center{
+    text-align: center;
+    align-items: center;
+}
+#services{
+    margin: 34px;
+    display: flex;
+}
+.Content-box{
+    border: 2px solid brown;
+    padding: 34px;
+    margin: 3px 6px;
+    border-radius: 28px;
+    background-color:whitesmoke;
+}
+.Content-box img{
+    margin: auto;
+    display:block;
+    height: 100px;
+}
+/* Menu list*/
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+h1 {
+    color: #333;
+}
+.menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.day {
+    background-color: white;
+    border: 1px solid #ccc;
+    width: 220px;
+    margin: 10px;
+    padding: 10px;
+    text-align: left;
+    border-radius: 5px;
+}
+.day h2 {
+    background-color: orange;
+    color: white;
+    padding: 5px;
+    text-align: center;
+    border-radius: 3px;
+}
+label {
+    display: block;
+    margin: 5px 0;
+}
+.box{
+    border: 2px solid brown;
+    margin: auto;
+    display: block;
+    height: 100px;
+}
+.Order-btm{
+    padding: 5px 10px;
+    vertical-align: middle;
+    background:none;
+    cursor: pointer;
+    border-radius: 8px;
+    color: black;
+}
+#result{
+    margin-top: 15px;
+    background: #e8ffe8;
+    padding: 10px;
+}
+
+.about-section {
+  border: 2px solid brown;    
+  padding: 50px;
+  background-color:white;
+}
+
+.about-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 60px;
+}
+
+/* Left text */
+.about-text {
+  width: 100%;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+/* Right image */
+.about-image {
+  width: 160%;
+  text-align: right;
+}
+
+.about-image img {
+  width: 250px;
+  max-width: 200%;
+}
+
+/*contact us*/
+.contact-section {
+  padding: 40px 20px;
+  background-color: #fff;
+  text-align: center;
+}
+
+.contact-section h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.contact-box {
+  font-size: 16px;
+  line-height: 2;
+}
+.contact-box{
+    border: 2px solid brown;
+}
